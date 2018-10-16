@@ -25,7 +25,7 @@ SECRET_KEY = 'sjtv%axx8$x5%3!q8d)hu9f+8)9_x%)yat09y!a%z&z%4+s!9j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u"vast-reef-98990.herokuapp.com"]
 
 
 # Application definition
