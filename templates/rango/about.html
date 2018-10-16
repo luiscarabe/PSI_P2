@@ -1,0 +1,10 @@
+{% extends 'rango/base.html' %}
+
+{% block title %}About{% endblock %}
+
+{% block body_block %}
+	<strong> This tutorial has been put together by {{ names }} </strong><br/>
+	<a href="{% url 'index' %}">Home</a><br>
+	<img src="{{ MEDIA_URL }}cat.jpg" alt="Cat Picture" />
+
+{% endblock %}
