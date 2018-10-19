@@ -25,7 +25,7 @@ SECRET_KEY = 'sjtv%axx8$x5%3!q8d)hu9f+8)9_x%)yat09y!a%z&z%4+s!9j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u"glacial-shore-70947.herokuapp.com"]
+ALLOWED_HOSTS = [u"glacial-shore-70947.herokuapp.com", u'127.0.0.1']
 
 
 # Application definition
